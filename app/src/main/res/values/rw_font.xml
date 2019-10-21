@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="rw_font" translatable="false">
+        <item>@font/montserrat_bold</item>
+    </array>
+</resources>

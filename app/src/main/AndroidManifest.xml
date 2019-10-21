@@ -19,6 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="rw_font"
+            android:resource="@array/rw_font" />
     </application>
 
 </manifest>
