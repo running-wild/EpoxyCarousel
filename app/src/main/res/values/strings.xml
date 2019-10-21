@@ -1,4 +1,5 @@
 <resources>
+    <string name="rw_url">runningwild.io</string>
     <string name="running">Running</string>
     <string name="wild">Wild</string>
 
