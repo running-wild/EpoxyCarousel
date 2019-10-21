@@ -12,6 +12,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <com.airbnb.epoxy.EpoxyRecyclerView
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,6 +28,7 @@
         android:autoLink="web"
         android:padding="16dp"
         android:text="@string/rw_url"
+        android:alpha="0.8"
         android:textColorLink="@color/rw_light"
         android:textSize="12sp" />
 

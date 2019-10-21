@@ -4,4 +4,9 @@
     <string name="wild">Wild</string>
 
     <string name="app_name">EpoxyCarousel</string>
+
+    <string-array name="view_pager_items">
+        <item>Farewell, ViewPager.</item>
+        <item>Hello, Epoxy Carousel.</item>
+    </string-array>
 </resources>
