@@ -7,4 +7,8 @@
     <color name="rw_main">#4BD1A0</color>
     <color name="rw_light">#FFFFFF</color>
     <color name="rw_dark">#323340</color>
+
+    <!-- Tab Layout -->
+    <color name="tab_default">@color/rw_light</color>
+    <color name="tab_selected">@color/rw_main</color>
 </resources>
